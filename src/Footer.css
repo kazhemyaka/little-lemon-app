@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 3.5em;
+    padding: 0.5em;
+    margin: 1em;
+    flex-wrap: wrap;
+}
+
+.footer-nav ul{
+    list-style-type: none;
+}
+
+.footer-nav ul li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-nav ul li {
+    margin-bottom: 0.5em;
+}
+
+.footer-nav  p {
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: left;
+    }
+    .footer-nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+}
