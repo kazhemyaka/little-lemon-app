@@ -3,7 +3,6 @@ import './Nav.css'
 function Nav() {
     return (
         <nav className="nav-bar">
-            <img src="/images/Logo.svg" alt="Logo"></img>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>

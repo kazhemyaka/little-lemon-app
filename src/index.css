@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Karla', sans-serif;
-    font-weight: 500;
+    font-size: 16pt;
+    color: #333333;
 }
 
 .container {
@@ -16,35 +20,22 @@
 
 /* Typography */
 
+h1, h2 {
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    line-height: 0.8em;
+}
+
 h1 {
     font-size: 64pt;
-    font-family: 'Markazi Text', serif;
-    font-weight: 700;
 }
 
 h2 {
-    font-family: 'Markazi Text', serif;
     font-size: 40pt;
 }
 
 h3 {
-    font-family: 'Markazi Text', serif;
-    font-size: 32pt;
-}
-
-h4 {
-    font-family: 'Markazi Text', serif;
-    font-size: 24pt;
-}
-
-h5 {
-    font-family: 'Markazi Text', serif;
-    font-size: 20pt;
-}
-
-h6 {
-    font-family: 'Markazi Text', serif;
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 p, span {
